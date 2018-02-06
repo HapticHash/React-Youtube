@@ -2,6 +2,7 @@
   "name": "new-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://harshitks2203.github.io/React-Youtube/",
   "dependencies": {
     "loadash": "^1.0.0",
     "lodash": "^4.17.5",
@@ -12,16 +13,19 @@
     "youtube-api-search": "0.0.5"
   },
   "scripts": {
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test --env=jsdom"
   },
   "devDependencies": {
     "babel-loader": "^7.1.2",
+    "gh-pages": "^1.1.0",
     "webpack": "^3.10.0"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "description": "This project was bootstrapped with [Create React App]",
   "main": "index.js",
   "keywords": [
     "react"
