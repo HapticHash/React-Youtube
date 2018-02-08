@@ -1,6 +1,7 @@
 body {
-    background:  #ecf0f1 ;
+    background:  #f2f2f2 ;
     margin: 5px;
+    font-family: 'Lato', sans-serif;
   }
 
 .row {
@@ -8,8 +9,9 @@ body {
 }
 
 .search-bar {
-    margin: 20px;
+    padding-top: 10px;
     text-align: center;
+    height: 60px !important;
 }
 
 .search-bar input{
@@ -17,9 +19,17 @@ body {
     padding-left: 8px;
     font-size: 18px;
     height: 30px;
-    border-top-color: none;
+    background-color: #FFF;
     border-radius: 20px;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.158), 0 10px 10px rgba(0,0,0,0.22);
+    border: 1px solid #444;
+}
+
+.logo{
+    width: 10%;
+    margin-right: 5%; 
+}
+hr{
+    color: #ccc;
 }
 
 .video-item img{
@@ -38,7 +48,7 @@ body {
     
     border-radius: 5px;
     float: right;
-	background:#FFF;
+	background:#F2F2F2;
 	margin:5px auto;
 }
 
@@ -46,7 +56,7 @@ body {
     width: 90%;
     border-radius: 5px;
     font-size: 18px;
-    background: #FFF;
+    background: #f2F2F2;
     margin-top: 5px;
     line-height: 1.5;
     margin-left: 25px;
@@ -79,6 +89,7 @@ body {
     width: 90%;
     height: 350px;
     margin-left: 3%;
+    box-shadow: -1px 20px 66px -20px black;
 }
 
 .media-left {
@@ -90,17 +101,20 @@ body {
     margin-top: 5px;
 }
 
+.yt-title{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.yt-desc{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .media-heading{
-    padding-left: 25% !important;
+    padding-left: 27% !important;
     padding-right: 2%;
     font-size: 18px;
 }
-
-.card-1 {
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  }
-  
-  .card-1:hover {
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  }

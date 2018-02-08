@@ -10,11 +10,11 @@ const VideoDetail = ({video}) => {
     return (
         <div className="col-md-6 embed-responsive-16by9">
             <div className="embed-responsive">
-                <iframe title="iframe of youtube video" className="embed-responsive-item" src={url}></iframe>
+                <iframe className="embed-responsive-item" src={url}></iframe>
             </div>
             <div className="details card-2">
-                <div>{video.snippet.title}</div>
-                <div>{video.snippet.description}</div>
+                <div className="yt-title">{video.snippet.title}</div>
+                <div className="yt-desc">{video.snippet.description}</div>
             </div>
         </div>
     );
