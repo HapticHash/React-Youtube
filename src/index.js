@@ -36,7 +36,6 @@ class App extends Component {
             <div>
                 <div className="searchbar">
                     <SearchBar onSearchTermChange={videoSearch} />
-                    <hr/>
                 </div>
                 <div className="row">
                     <VideoList 

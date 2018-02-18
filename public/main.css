@@ -1,5 +1,5 @@
 body {
-    background:  #f2f2f2 ;
+    background:  #F2F2F2 ;
     margin: 5px;
     font-family: 'Lato', sans-serif;
   }
@@ -9,8 +9,10 @@ body {
 }
 
 .search-bar {
-    padding-top: 10px;
+    padding-top: 20px;
     text-align: center;
+    background: #282828;
+    border-bottom: 1px solid #222;
     height: 60px !important;
 }
 
@@ -21,13 +23,23 @@ body {
     height: 30px;
     background-color: #FFF;
     border-radius: 20px;
-    border: 1px solid #444;
+    border: 1px solid #282828;
 }
 
 .logo{
     width: 10%;
     margin-right: 5%; 
 }
+
+.inputEnter{
+    margin-left: -18%;
+}
+
+.inputEnter{
+    float: right;
+    width: 100%;
+}
+
 hr{
     color: #ccc;
 }
