@@ -7,4 +7,4 @@ This is just for learning purpose.
 
 ## Screenshot
 
-[<img alt='YoutubeDummy' src="https://raw.githubusercontent.com/harshitks2203/Flutter_Quizz/master/resources/1MainScreen.png?token=APLQiRXfkVTSOT2O89-16F5sJKuGotjXks5aqY7QwA%3D%3D">](HomePage)
+[<img alt='YoutubeDummy' src="https://raw.githubusercontent.com/harshitks2203/React-Youtube/master/resources/UI.png">](HomePage)
