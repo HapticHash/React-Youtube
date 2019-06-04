@@ -16,7 +16,7 @@ class SearchBar extends Component {
                     onChange={event => this.onInputChange(event.target.value) } /> 
                 </div>
                 <div className="logoShow">
-                    <img className="logo" src={'http://harshitks.xyz/assets/img/ytlogo_dark.png'} alt="logo"/>
+                    <img className="logo" src={'https://rawcdn.githack.com/HapticHash/React-Youtube/133530d2885b62fc8fec2bcdf0ea7636d747802d/src/components/images/ytlogo_dark.png'} alt="logo"/>
                 </div>
             </div>
         );
